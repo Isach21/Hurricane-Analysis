@@ -38,7 +38,6 @@ print(updated_damages)
 # 2 
 # Create and view the hurricanes dictionary
 def create_dictionary(names, months, years, max_sustained_winds, areas_affected, updated_damages, deaths):
-    """Create dictionary of hurricanes with hurricane name as the key and a dictionary of hurricane data as the value."""
     hurricanes = {}
     num_hurricanes = len(names)
     for i in range(num_hurricanes):
